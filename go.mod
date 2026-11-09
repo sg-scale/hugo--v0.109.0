@@ -22,7 +22,7 @@ require (
 	github.com/evanw/esbuild v0.15.18
 	github.com/fortytw2/leaktest v1.3.0
 	github.com/frankban/quicktest v1.14.4
-	github.com/fsnotify/fsnotify v1.6.0
+	github.com/fsnotify/fsnotify v1.10.1
 	github.com/getkin/kin-openapi v0.110.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/gobuffalo/flect v0.3.0
@@ -55,8 +55,8 @@ require (
 	github.com/spf13/fsync v0.9.0
 	github.com/spf13/jwalterweatherman v1.1.0
 	github.com/spf13/pflag v1.0.5
-	github.com/tdewolff/minify/v2 v2.12.4
-	github.com/tdewolff/parse/v2 v2.6.4
+	github.com/tdewolff/minify/v2 v2.24.25
+	github.com/tdewolff/parse/v2 v2.8.20
 	github.com/yuin/goldmark v1.5.3
 	go.uber.org/atomic v1.10.0
 	gocloud.dev v0.24.0
@@ -117,7 +117,7 @@ require (
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa // indirect
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5 // indirect
-	golang.org/x/sys v0.3.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220411194840-2f41105eb62f // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220426171045-31bebdecfb46 // indirect
@@ -126,4 +126,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-go 1.18
+go 1.26.0
